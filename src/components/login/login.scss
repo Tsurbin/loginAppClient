@@ -1,0 +1,81 @@
+
+.login-page-main {
+    .login-page-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 200px;
+        .login_form-main {
+            border: 1px solid blue;
+            align-items: center;
+            .login-form-container {
+                padding: 30px 40px;
+                .main-header {
+                    margin-bottom: 30px;
+                    position: relative;
+                    top: 0;
+                }
+                .login-fields {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    .input-component {
+                        margin: 10px 0;
+                        .wrapper-class {
+                            display: flex;
+                            .label-class {
+                                margin: 0 10px;
+                            }
+                            .elementTextClass {
+                                .input-class {
+
+                                }
+                                .field-validation-alert {
+                                    font-size: 13px;
+                                    color: red;
+                                    font-weight: 700;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                    .submit-button {
+                        background: #5959ff;
+                        color: white;
+                        text-align: center;
+                        margin: 40px auto;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                        cursor: pointer;
+                        line-height: 39px;
+                        font-weight: bold;
+                        padding: 0 20px;
+                        border-radius: 64;
+                        border-radius: 10px;
+                    }
+                    .sign-up-button {
+                        width: 113px;
+                        height: 44px;
+                        background:#45a176f6 ;
+                        color: white;
+                        text-align: center;
+                        margin: 40px auto;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                        
+                        cursor: pointer;
+                        line-height: 39px;
+                        &:hover {
+                        background: #418141a6;
+                        color: whitesmoke;
+                        }
+                    }
+                }
+                .form-validation-message {
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
